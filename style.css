@@ -1,0 +1,272 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+/* navbar styling */
+.logo{
+    margin: 10px;
+    padding: 0;
+}
+
+.navbar{
+    background-color: #C9B194;
+    border-radius: 7px;
+}
+
+.navbar ul{
+    overflow: auto;
+}
+
+.navbar li{
+    float: left;
+    list-style: none;
+    margin: 13px 14px; 
+    text-align: center;
+}
+
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.navbar li a:hover{
+    color: #947e5b;
+    font-weight: bold;
+}
+.header-img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+.content {
+    padding: 20px;
+}
+.header-img{
+    width: 1800px;
+}
+.content2{
+    padding: 20px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    height: 100vh;
+}
+.image-section {
+    flex: 1;
+    background: url('2013-09-23-06.49.59-650x546.jpg') no-repeat center center/cover;
+    height:600px;
+    width: 400px;
+}
+.text-section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+.text-section p {
+    font-size: 1.2em;
+}
+.para{
+    text-align: center;
+}
+.about-header {
+    background: url('GettyImages-1299749525-28a000fddef64f6685cd22c51ac34622.webp') no-repeat center center/cover;
+    height: 300px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 2000px;
+    border-radius: 15px;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+    color:#A08963;
+}
+h1:hover {
+    color:#C9B194;
+   
+}
+
+p {
+    margin: 5px 0 0;
+    font-size: 18px;
+}
+
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;
+    margin: 50px auto;
+}
+
+.image {
+    flex: 1;
+    padding: 20px;
+}
+
+.image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.text {
+    flex: 1;
+    padding: 20px;
+}
+
+h2 {
+    color: #A08963; 
+    font-size: 28px;
+}
+ .heading:hover {
+    color:#C9B194;
+   
+ }
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: justify;
+}
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.member {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 250px;
+}
+
+.member img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #f1f1f1;
+}
+
+.member h3 {
+    margin: 10px 0 5px;
+    font-size: 18px;
+    color: #333;
+}
+
+.role {
+    font-size: 14px;
+    color: #e67e22;
+    font-weight: bold;
+}
+
+.quote {
+    font-size: 12px;
+    font-style: italic;
+    color: #777;
+    margin: 10px 0;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    margin: 0 5px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #e67e22;
+}
+.learn-more-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.learn-more-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color:#A08963;
+    border: 2px solid #A08963;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.learn-more-btn:hover {
+    background-color: #C9B194;
+    color: #A08963;
+    border: 2px solid white;
+}
+/* footer styling */
+.heading{
+    color: #A08963;
+    font-size: larger;
+}
+
+.heading:hover{
+    color: #C9B194;
+}
+
+.text{
+    text-decoration: none;
+    color: black;
+}
+
+.text:hover{
+    text-decoration: underline;
+}
+
+.text2{
+    color: black;
+}
+
+.text2:hover{
+    text-decoration: underline;
+}
+
+.icon{
+    color: #A08963;
+}
+
+.icon:hover{
+    color: #C9B194;
+    font-size: larger;
+}
+

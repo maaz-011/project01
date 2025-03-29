@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script>document.querySelector(".navbar-toggler").addEventListener("click", function() {
+      document.querySelector(".navbar ul").classList.toggle("show");
+  });
+  </script>
+    <style>
+      /* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #333;
+    color: white;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.navbar-toggler {
+    display: none;
+}
+
+/* Responsive Navbar */
+@media (max-width: 768px) {
+    .navbar ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar-toggler {
+        display: block;
+        background: none;
+        border: none;
+        color: white;
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    .navbar ul.show {
+        display: flex;
+    }
+}
+
+/* About Section */
+.about-header {
+    background: url('header-image.jpg') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+}
+
+/* Responsive About Section */
+@media (max-width: 768px) {
+    .about-header {
+        padding: 30px 10px;
+    }
+}
+
+/* Content Section */
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Responsive Content Section */
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+/* Team Section */
+.team {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.member {
+    text-align: center;
+    max-width: 250px;
+}
+
+/* Footer */
+.footer {
+    background: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Responsive Footer */
+@media (max-width: 768px) {
+    .footer {
+        font-size: 14px;
+    }
+}
+
+    </style>
+
+</head>
+<body>
+    <!-- Navbar Starts -->
+ <header>
+    <nav class="navbar">
+      <img src="images/logo.png" alt="logo" height="70px" width="110px" class="logo">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Product</a></li>
+        <li><a href="#">Contact us</a></li>
+       </ul>
+    </nav>
+ </header>
+ <!-- Navbar Ends -->
+    <section class="about-header" >
+        <div class="overlay">
+            <h1>About Us</h1>
+           <button>Home></button> <button>About></button>
+        </div>
+    </section>
+    <br><br>
+    
+    <section class="content">
+        <div class="image">
+            <img src="Calendars111.jpg" alt="Calendars">
+        </div>
+        <div class="text">
+            <h2 class="heading">Our Website</h2>
+            <p>
+                At ChronoNotes, we believe that organization and creativity go hand in hand. Specializing in calendars, diaries, and notebooks, we offer high-quality, thoughtfully designed products that help you plan your days, capture your thoughts, and stay inspired. Whether you're a professional looking for a structured planner, a student managing assignments, or a creative mind seeking a space for ideas, ChronoNotes has the perfect solution for you. Our calendars keep you on track, our diaries provide a space for reflection, and our notebooks serve as a canvas for your creativity. With elegant designs, durable materials, and a variety of styles to suit every personality, ChronoNotes is more than just stationery—it’s a companion for your journey through time.
+            </p>
+        </div>
+    </section>
+
+    <div class="content3">
+        <h1>Our Team</h1>
+    </div>
+    <section class="team">
+        <div class="member">
+            <img src="60-512.webp" alt="">
+            <h3>Ashna Shaikh</h3>
+            <p class="role">Team Member</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="member">
+            <img src="eaaa7c9fd4ce780349e072ad967b8779.jpg" alt="">
+            <h3>Anoosha Ansari</h3>
+            <p class="role">Team Member</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="member">
+            <img src="images.jpeg" alt="">
+            <h3>Tooba</h3>
+            <p class="role">Team Member</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+    <br><br>
+    <div class="learn-more-container">
+        <a href="your-link-here.html" class="learn-more-btn">Learn More</a>
+    </div>
+    <section class="footer">
+        <p>&copy; 2022 ChronoNotes. All rights reserved.</p>
+    </section>
+
+    
+    
+</body>
+</html>
